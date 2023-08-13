@@ -17,7 +17,7 @@ function Forecast({ title, items }) {
           <p className="font-light text-sm "> {item.time || item.day } </p>
           <img
               src={iconUrlFromCode(item.icon)}
-            className="w-12 my-1"
+            className="w-13 my-1"
             alt=""
             />
           <p className="font-medium"> {`${item.temp.toFixed()}°`} </p>
